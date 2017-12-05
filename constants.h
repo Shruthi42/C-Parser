@@ -1,0 +1,2 @@
+#define MAXRULESIZE 200
+#define MAXTOKENSIZE 30

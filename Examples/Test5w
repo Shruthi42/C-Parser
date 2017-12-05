@@ -1,0 +1,49 @@
+/*
+sample program
+to show parsing  action
+*/
+int a;
+
+int foo(int a,)
+{
+	int x,y;
+		printf("Hello, World!");
+}
+
+//Start main
+main()
+{
+int a=;
+int c
+int b[5] = {0;
+
+if(a==b)
+{
+	printf("Greater");
+}
+
+else
+printf("Lesser");
+
+while()
+{
+
+}
+
+if()
+
+else
+;
+a = 5;
+
+}
+
+
+
+
+
+
+
+
+
+

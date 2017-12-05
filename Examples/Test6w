@@ -1,0 +1,8 @@
+main()
+{
+i= a+1;
+do
+{
+i = i+1
+}while(a);
+}

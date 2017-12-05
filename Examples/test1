@@ -1,0 +1,13 @@
+int a;
+
+int foo(int a,int b)
+{
+
+}
+
+main()
+{
+int a = 2;
+int c;
+int b;
+}

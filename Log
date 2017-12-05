@@ -1,0 +1,1035 @@
+Beginning Parsing: 
+
+Current state: 0 input token STRUCT
+SHIFT on token STRUCT to state 25
+
+Current state: 25 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 86
+
+GOTO from state 0 on token struct_or_union to state 7
+
+Current state: 7 input token IDENTIFIER
+SHIFT on token IDENTIFIER to state 41
+
+Current state: 41 input token {
+SHIFT on token { to state 74
+
+Current state: 74 input token TYPE
+SHIFT on token TYPE to state 87
+
+Current state: 87 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 79
+
+GOTO from state 74 on token type_specifier to state 75
+
+Current state: 75 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 92
+
+GOTO from state 74 on token specifier_qualifier_list to state 80
+
+Current state: 80 input token IDENTIFIER
+SHIFT on token IDENTIFIER to state 228
+
+Current state: 228 input token ;
+REDUCE on token ; by rule 111
+
+GOTO from state 80 on token direct_declarator to state 226
+
+Current state: 226 input token ;
+REDUCE on token ; by rule 110
+
+GOTO from state 80 on token declarator to state 225
+
+Current state: 225 input token ;
+REDUCE on token ; by rule 97
+
+GOTO from state 80 on token struct_declarator to state 224
+
+Current state: 224 input token ;
+REDUCE on token ; by rule 95
+
+GOTO from state 80 on token struct_declarator_list to state 223
+
+Current state: 223 input token ;
+SHIFT on token ; to state 434
+
+Current state: 434 input token TYPE
+REDUCE on token TYPE by rule 90
+
+GOTO from state 74 on token struct_declaration to state 79
+
+Current state: 79 input token TYPE
+REDUCE on token TYPE by rule 88
+
+GOTO from state 74 on token struct_declaration_list to state 217
+
+Current state: 217 input token TYPE
+SHIFT on token TYPE to state 87
+
+Current state: 87 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 79
+
+GOTO from state 217 on token type_specifier to state 75
+
+Current state: 75 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 92
+
+GOTO from state 217 on token specifier_qualifier_list to state 80
+
+Current state: 80 input token IDENTIFIER
+SHIFT on token IDENTIFIER to state 228
+
+Current state: 228 input token [
+REDUCE on token [ by rule 111
+
+GOTO from state 80 on token direct_declarator to state 226
+
+Current state: 226 input token [
+SHIFT on token [ to state 438
+
+Current state: 438 input token CONSTANT
+SHIFT on token CONSTANT to state 188
+
+Current state: 188 input token ]
+REDUCE on token ] by rule 3
+
+GOTO from state 438 on token primary_expression to state 170
+
+Current state: 170 input token ]
+REDUCE on token ] by rule 6
+
+GOTO from state 438 on token postfix_expression to state 171
+
+Current state: 171 input token ]
+REDUCE on token ] by rule 16
+
+GOTO from state 438 on token unary_expression to state 172
+
+Current state: 172 input token ]
+REDUCE on token ] by rule 26
+
+GOTO from state 438 on token cast_expression to state 174
+
+Current state: 174 input token ]
+REDUCE on token ] by rule 28
+
+GOTO from state 438 on token multiplicative_expression to state 175
+
+Current state: 175 input token ]
+REDUCE on token ] by rule 32
+
+GOTO from state 438 on token additive_expression to state 176
+
+Current state: 176 input token ]
+REDUCE on token ] by rule 35
+
+GOTO from state 438 on token shift_expression to state 177
+
+Current state: 177 input token ]
+REDUCE on token ] by rule 37
+
+GOTO from state 438 on token relational_expression to state 178
+
+Current state: 178 input token ]
+REDUCE on token ] by rule 41
+
+GOTO from state 438 on token equality_expression to state 179
+
+Current state: 179 input token ]
+REDUCE on token ] by rule 43
+
+GOTO from state 438 on token and_expression to state 180
+
+Current state: 180 input token ]
+REDUCE on token ] by rule 45
+
+GOTO from state 438 on token exclusive_or_expression to state 181
+
+Current state: 181 input token ]
+REDUCE on token ] by rule 47
+
+GOTO from state 438 on token inclusive_or_expression to state 182
+
+Current state: 182 input token ]
+REDUCE on token ] by rule 49
+
+GOTO from state 438 on token logical_and_expression to state 183
+
+Current state: 183 input token ]
+REDUCE on token ] by rule 51
+
+GOTO from state 438 on token logical_or_expression to state 184
+
+Current state: 184 input token ]
+REDUCE on token ] by rule 53
+
+GOTO from state 438 on token conditional_expression to state 185
+
+Current state: 185 input token ]
+REDUCE on token ] by rule 61
+
+GOTO from state 438 on token constant_expression to state 710
+
+Current state: 710 input token ]
+SHIFT on token ] to state 940
+
+Current state: 940 input token ;
+REDUCE on token ; by rule 113
+
+GOTO from state 80 on token direct_declarator to state 226
+
+Current state: 226 input token ;
+REDUCE on token ; by rule 110
+
+GOTO from state 80 on token declarator to state 225
+
+Current state: 225 input token ;
+REDUCE on token ; by rule 97
+
+GOTO from state 80 on token struct_declarator to state 224
+
+Current state: 224 input token ;
+REDUCE on token ; by rule 95
+
+GOTO from state 80 on token struct_declarator_list to state 223
+
+Current state: 223 input token ;
+SHIFT on token ; to state 434
+
+Current state: 434 input token }
+REDUCE on token } by rule 90
+
+GOTO from state 217 on token struct_declaration to state 221
+
+Current state: 221 input token }
+REDUCE on token } by rule 89
+
+GOTO from state 74 on token struct_declaration_list to state 217
+
+Current state: 217 input token }
+SHIFT on token } to state 431
+
+Current state: 431 input token ;
+REDUCE on token ; by rule 83
+
+GOTO from state 0 on token struct_or_union_specifier to state 6
+
+Current state: 6 input token ;
+REDUCE on token ; by rule 80
+
+GOTO from state 0 on token type_specifier to state 5
+
+Current state: 5 input token ;
+REDUCE on token ; by rule 66
+
+GOTO from state 0 on token declaration_specifiers to state 3
+
+Current state: 3 input token ;
+SHIFT on token ; to state 37
+
+Current state: 37 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 62
+
+GOTO from state 0 on token declaration to state 2
+
+Current state: 2 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 185
+
+GOTO from state 0 on token external_declaration to state 14
+
+Current state: 14 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 182
+
+GOTO from state 0 on token program to state 13
+
+Current state: 13 input token IDENTIFIER
+SHIFT on token IDENTIFIER to state 16
+
+Current state: 16 input token (
+REDUCE on token ( by rule 111
+
+GOTO from state 13 on token direct_declarator to state 11
+
+Current state: 11 input token (
+SHIFT on token ( to state 49
+
+Current state: 49 input token )
+SHIFT on token ) to state 168
+
+Current state: 168 input token {
+REDUCE on token { by rule 117
+
+GOTO from state 13 on token direct_declarator to state 11
+
+Current state: 11 input token {
+REDUCE on token { by rule 110
+
+GOTO from state 13 on token declarator to state 10
+
+Current state: 10 input token {
+SHIFT on token { to state 48
+
+Current state: 48 input token STRUCT
+SHIFT on token STRUCT to state 25
+
+Current state: 25 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 86
+
+GOTO from state 48 on token struct_or_union to state 7
+
+Current state: 7 input token IDENTIFIER
+SHIFT on token IDENTIFIER to state 41
+
+Current state: 41 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 85
+
+GOTO from state 48 on token struct_or_union_specifier to state 6
+
+Current state: 6 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 80
+
+GOTO from state 48 on token type_specifier to state 5
+
+Current state: 5 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 66
+
+GOTO from state 48 on token declaration_specifiers to state 116
+
+Current state: 116 input token IDENTIFIER
+SHIFT on token IDENTIFIER to state 92
+
+Current state: 92 input token ;
+REDUCE on token ; by rule 111
+
+GOTO from state 116 on token direct_declarator to state 90
+
+Current state: 90 input token ;
+REDUCE on token ; by rule 110
+
+GOTO from state 116 on token declarator to state 89
+
+Current state: 89 input token ;
+REDUCE on token ; by rule 72
+
+GOTO from state 116 on token init_declarator to state 32
+
+Current state: 32 input token ;
+REDUCE on token ; by rule 70
+
+GOTO from state 116 on token init_declarator_list to state 267
+
+Current state: 267 input token ;
+SHIFT on token ; to state 531
+
+Current state: 531 input token TYPE
+REDUCE on token TYPE by rule 63
+
+GOTO from state 48 on token declaration to state 115
+
+Current state: 115 input token TYPE
+REDUCE on token TYPE by rule 190
+
+GOTO from state 48 on token state_dec_list to state 124
+
+Current state: 124 input token TYPE
+SHIFT on token TYPE to state 30
+
+Current state: 30 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 79
+
+GOTO from state 124 on token type_specifier to state 5
+
+Current state: 5 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 66
+
+GOTO from state 124 on token declaration_specifiers to state 116
+
+Current state: 116 input token IDENTIFIER
+SHIFT on token IDENTIFIER to state 92
+
+Current state: 92 input token =
+REDUCE on token = by rule 111
+
+GOTO from state 116 on token direct_declarator to state 90
+
+Current state: 90 input token =
+REDUCE on token = by rule 110
+
+GOTO from state 116 on token declarator to state 89
+
+Current state: 89 input token =
+SHIFT on token = to state 69
+
+Current state: 69 input token CONSTANT
+SHIFT on token CONSTANT to state 126
+
+Current state: 126 input token ,
+REDUCE on token , by rule 3
+
+GOTO from state 69 on token primary_expression to state 97
+
+Current state: 97 input token ,
+REDUCE on token , by rule 6
+
+GOTO from state 69 on token postfix_expression to state 98
+
+Current state: 98 input token ,
+REDUCE on token , by rule 16
+
+GOTO from state 69 on token unary_expression to state 99
+
+Current state: 99 input token ,
+REDUCE on token , by rule 26
+
+GOTO from state 69 on token cast_expression to state 101
+
+Current state: 101 input token ,
+REDUCE on token , by rule 28
+
+GOTO from state 69 on token multiplicative_expression to state 102
+
+Current state: 102 input token ,
+REDUCE on token , by rule 32
+
+GOTO from state 69 on token additive_expression to state 103
+
+Current state: 103 input token ,
+REDUCE on token , by rule 35
+
+GOTO from state 69 on token shift_expression to state 104
+
+Current state: 104 input token ,
+REDUCE on token , by rule 37
+
+GOTO from state 69 on token relational_expression to state 105
+
+Current state: 105 input token ,
+REDUCE on token , by rule 41
+
+GOTO from state 69 on token equality_expression to state 106
+
+Current state: 106 input token ,
+REDUCE on token , by rule 43
+
+GOTO from state 69 on token and_expression to state 107
+
+Current state: 107 input token ,
+REDUCE on token , by rule 45
+
+GOTO from state 69 on token exclusive_or_expression to state 108
+
+Current state: 108 input token ,
+REDUCE on token , by rule 47
+
+GOTO from state 69 on token inclusive_or_expression to state 109
+
+Current state: 109 input token ,
+REDUCE on token , by rule 49
+
+GOTO from state 69 on token logical_and_expression to state 110
+
+Current state: 110 input token ,
+REDUCE on token , by rule 51
+
+GOTO from state 69 on token logical_or_expression to state 111
+
+Current state: 111 input token ,
+REDUCE on token , by rule 53
+
+GOTO from state 69 on token conditional_expression to state 112
+
+Current state: 112 input token ,
+REDUCE on token , by rule 55
+
+GOTO from state 69 on token assignment_expression to state 207
+
+Current state: 207 input token ,
+REDUCE on token , by rule 147
+
+GOTO from state 69 on token initializer to state 208
+
+Current state: 208 input token ,
+REDUCE on token , by rule 73
+
+GOTO from state 116 on token init_declarator to state 32
+
+Current state: 32 input token ,
+REDUCE on token , by rule 70
+
+GOTO from state 116 on token init_declarator_list to state 267
+
+Current state: 267 input token ,
+SHIFT on token , to state 66
+
+Current state: 66 input token IDENTIFIER
+SHIFT on token IDENTIFIER to state 92
+
+Current state: 92 input token =
+REDUCE on token = by rule 111
+
+GOTO from state 66 on token direct_declarator to state 90
+
+Current state: 90 input token =
+REDUCE on token = by rule 110
+
+GOTO from state 66 on token declarator to state 89
+
+Current state: 89 input token =
+SHIFT on token = to state 69
+
+Current state: 69 input token CONSTANT
+SHIFT on token CONSTANT to state 126
+
+Current state: 126 input token ;
+REDUCE on token ; by rule 3
+
+GOTO from state 69 on token primary_expression to state 97
+
+Current state: 97 input token ;
+REDUCE on token ; by rule 6
+
+GOTO from state 69 on token postfix_expression to state 98
+
+Current state: 98 input token ;
+REDUCE on token ; by rule 16
+
+GOTO from state 69 on token unary_expression to state 99
+
+Current state: 99 input token ;
+REDUCE on token ; by rule 26
+
+GOTO from state 69 on token cast_expression to state 101
+
+Current state: 101 input token ;
+REDUCE on token ; by rule 28
+
+GOTO from state 69 on token multiplicative_expression to state 102
+
+Current state: 102 input token ;
+REDUCE on token ; by rule 32
+
+GOTO from state 69 on token additive_expression to state 103
+
+Current state: 103 input token ;
+REDUCE on token ; by rule 35
+
+GOTO from state 69 on token shift_expression to state 104
+
+Current state: 104 input token ;
+REDUCE on token ; by rule 37
+
+GOTO from state 69 on token relational_expression to state 105
+
+Current state: 105 input token ;
+REDUCE on token ; by rule 41
+
+GOTO from state 69 on token equality_expression to state 106
+
+Current state: 106 input token ;
+REDUCE on token ; by rule 43
+
+GOTO from state 69 on token and_expression to state 107
+
+Current state: 107 input token ;
+REDUCE on token ; by rule 45
+
+GOTO from state 69 on token exclusive_or_expression to state 108
+
+Current state: 108 input token ;
+REDUCE on token ; by rule 47
+
+GOTO from state 69 on token inclusive_or_expression to state 109
+
+Current state: 109 input token ;
+REDUCE on token ; by rule 49
+
+GOTO from state 69 on token logical_and_expression to state 110
+
+Current state: 110 input token ;
+REDUCE on token ; by rule 51
+
+GOTO from state 69 on token logical_or_expression to state 111
+
+Current state: 111 input token ;
+REDUCE on token ; by rule 53
+
+GOTO from state 69 on token conditional_expression to state 112
+
+Current state: 112 input token ;
+REDUCE on token ; by rule 55
+
+GOTO from state 69 on token assignment_expression to state 207
+
+Current state: 207 input token ;
+REDUCE on token ; by rule 147
+
+GOTO from state 69 on token initializer to state 208
+
+Current state: 208 input token ;
+REDUCE on token ; by rule 73
+
+GOTO from state 66 on token init_declarator to state 205
+
+Current state: 205 input token ;
+REDUCE on token ; by rule 71
+
+GOTO from state 116 on token init_declarator_list to state 267
+
+Current state: 267 input token ;
+SHIFT on token ; to state 531
+
+Current state: 531 input token TYPE
+REDUCE on token TYPE by rule 63
+
+GOTO from state 124 on token declaration to state 269
+
+Current state: 269 input token TYPE
+REDUCE on token TYPE by rule 191
+
+GOTO from state 48 on token state_dec_list to state 124
+
+Current state: 124 input token TYPE
+SHIFT on token TYPE to state 30
+
+Current state: 30 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 79
+
+GOTO from state 124 on token type_specifier to state 5
+
+Current state: 5 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 66
+
+GOTO from state 124 on token declaration_specifiers to state 116
+
+Current state: 116 input token IDENTIFIER
+SHIFT on token IDENTIFIER to state 92
+
+Current state: 92 input token =
+REDUCE on token = by rule 111
+
+GOTO from state 116 on token direct_declarator to state 90
+
+Current state: 90 input token =
+REDUCE on token = by rule 110
+
+GOTO from state 116 on token declarator to state 89
+
+Current state: 89 input token =
+SHIFT on token = to state 69
+
+Current state: 69 input token IDENTIFIER
+SHIFT on token IDENTIFIER to state 209
+
+Current state: 209 input token +
+REDUCE on token + by rule 2
+
+GOTO from state 69 on token primary_expression to state 97
+
+Current state: 97 input token +
+REDUCE on token + by rule 6
+
+GOTO from state 69 on token postfix_expression to state 98
+
+Current state: 98 input token +
+REDUCE on token + by rule 16
+
+GOTO from state 69 on token unary_expression to state 99
+
+Current state: 99 input token +
+REDUCE on token + by rule 26
+
+GOTO from state 69 on token cast_expression to state 101
+
+Current state: 101 input token +
+REDUCE on token + by rule 28
+
+GOTO from state 69 on token multiplicative_expression to state 102
+
+Current state: 102 input token +
+REDUCE on token + by rule 32
+
+GOTO from state 69 on token additive_expression to state 103
+
+Current state: 103 input token +
+SHIFT on token + to state 253
+
+Current state: 253 input token ;
+No action possible on this input
+Error recovery inserted primary_expression
+
+Current state: 440 input token ;
+REDUCE on token ; by rule 6
+
+GOTO from state 253 on token postfix_expression to state 441
+
+Current state: 441 input token ;
+REDUCE on token ; by rule 16
+
+GOTO from state 253 on token unary_expression to state 442
+
+Current state: 442 input token ;
+REDUCE on token ; by rule 26
+
+GOTO from state 253 on token cast_expression to state 101
+
+Current state: 101 input token ;
+REDUCE on token ; by rule 28
+
+GOTO from state 253 on token multiplicative_expression to state 495
+
+Current state: 495 input token ;
+REDUCE on token ; by rule 34
+
+GOTO from state 69 on token additive_expression to state 103
+
+Current state: 103 input token ;
+REDUCE on token ; by rule 35
+
+GOTO from state 69 on token shift_expression to state 104
+
+Current state: 104 input token ;
+REDUCE on token ; by rule 37
+
+GOTO from state 69 on token relational_expression to state 105
+
+Current state: 105 input token ;
+REDUCE on token ; by rule 41
+
+GOTO from state 69 on token equality_expression to state 106
+
+Current state: 106 input token ;
+REDUCE on token ; by rule 43
+
+GOTO from state 69 on token and_expression to state 107
+
+Current state: 107 input token ;
+REDUCE on token ; by rule 45
+
+GOTO from state 69 on token exclusive_or_expression to state 108
+
+Current state: 108 input token ;
+REDUCE on token ; by rule 47
+
+GOTO from state 69 on token inclusive_or_expression to state 109
+
+Current state: 109 input token ;
+REDUCE on token ; by rule 49
+
+GOTO from state 69 on token logical_and_expression to state 110
+
+Current state: 110 input token ;
+REDUCE on token ; by rule 51
+
+GOTO from state 69 on token logical_or_expression to state 111
+
+Current state: 111 input token ;
+REDUCE on token ; by rule 53
+
+GOTO from state 69 on token conditional_expression to state 112
+
+Current state: 112 input token ;
+REDUCE on token ; by rule 55
+
+GOTO from state 69 on token assignment_expression to state 207
+
+Current state: 207 input token ;
+REDUCE on token ; by rule 147
+
+GOTO from state 69 on token initializer to state 208
+
+Current state: 208 input token ;
+REDUCE on token ; by rule 73
+
+GOTO from state 116 on token init_declarator to state 32
+
+Current state: 32 input token ;
+REDUCE on token ; by rule 70
+
+GOTO from state 116 on token init_declarator_list to state 267
+
+Current state: 267 input token ;
+SHIFT on token ; to state 531
+
+Current state: 531 input token DO
+REDUCE on token DO by rule 63
+
+GOTO from state 124 on token declaration to state 269
+
+Current state: 269 input token DO
+REDUCE on token DO by rule 191
+
+GOTO from state 48 on token state_dec_list to state 124
+
+Current state: 124 input token DO
+SHIFT on token DO to state 132
+
+Current state: 132 input token {
+SHIFT on token { to state 297
+
+Current state: 297 input token IDENTIFIER
+SHIFT on token IDENTIFIER to state 125
+
+Current state: 125 input token =
+REDUCE on token = by rule 2
+
+GOTO from state 297 on token primary_expression to state 97
+
+Current state: 97 input token =
+REDUCE on token = by rule 6
+
+GOTO from state 297 on token postfix_expression to state 98
+
+Current state: 98 input token =
+REDUCE on token = by rule 16
+
+GOTO from state 297 on token unary_expression to state 99
+
+Current state: 99 input token =
+SHIFT on token = to state 245
+
+Current state: 245 input token IDENTIFIER
+REDUCE on token IDENTIFIER by rule 57
+
+GOTO from state 99 on token assignment_operator to state 244
+
+Current state: 244 input token IDENTIFIER
+SHIFT on token IDENTIFIER to state 209
+
+Current state: 209 input token INC_DEC_OP
+REDUCE on token INC_DEC_OP by rule 2
+
+GOTO from state 244 on token primary_expression to state 97
+
+Current state: 97 input token INC_DEC_OP
+REDUCE on token INC_DEC_OP by rule 6
+
+GOTO from state 244 on token postfix_expression to state 98
+
+Current state: 98 input token INC_DEC_OP
+SHIFT on token INC_DEC_OP to state 243
+
+Current state: 243 input token }
+No action possible on this input
+current TOS is: 243
+Error Recovery: Popping state 243
+Error Recovery: Popping state 98
+Error Recovery: Popping state 244
+Error Recovery: Popping state 99
+
+Error Recovery: GOTO from state 297 on nonterminal declaration to state 115
+Acceptable state found. Trying to resume parsing
+Exiting Error recovery, found token }
+
+Current state: 115 input token }
+REDUCE on token } by rule 190
+
+GOTO from state 297 on token state_dec_list to state 550
+
+Current state: 550 input token }
+SHIFT on token } to state 809
+
+Current state: 809 input token WHILE
+REDUCE on token WHILE by rule 164
+
+GOTO from state 132 on token compound_statement to state 281
+
+Current state: 281 input token WHILE
+REDUCE on token WHILE by rule 153
+
+GOTO from state 132 on token statement to state 279
+
+Current state: 279 input token WHILE
+SHIFT on token WHILE to state 538
+
+Current state: 538 input token (
+SHIFT on token ( to state 800
+
+Current state: 800 input token IDENTIFIER
+SHIFT on token IDENTIFIER to state 331
+
+Current state: 331 input token <
+REDUCE on token < by rule 2
+
+GOTO from state 800 on token primary_expression to state 306
+
+Current state: 306 input token <
+REDUCE on token < by rule 6
+
+GOTO from state 800 on token postfix_expression to state 307
+
+Current state: 307 input token <
+REDUCE on token < by rule 16
+
+GOTO from state 800 on token unary_expression to state 308
+
+Current state: 308 input token <
+REDUCE on token < by rule 26
+
+GOTO from state 800 on token cast_expression to state 310
+
+Current state: 310 input token <
+REDUCE on token < by rule 28
+
+GOTO from state 800 on token multiplicative_expression to state 311
+
+Current state: 311 input token <
+REDUCE on token < by rule 32
+
+GOTO from state 800 on token additive_expression to state 312
+
+Current state: 312 input token <
+REDUCE on token < by rule 35
+
+GOTO from state 800 on token shift_expression to state 313
+
+Current state: 313 input token <
+REDUCE on token < by rule 37
+
+GOTO from state 800 on token relational_expression to state 314
+
+Current state: 314 input token <
+SHIFT on token < to state 572
+
+Current state: 572 input token CONSTANT
+SHIFT on token CONSTANT to state 827
+
+Current state: 827 input token )
+REDUCE on token ) by rule 3
+
+GOTO from state 572 on token primary_expression to state 821
+
+Current state: 821 input token )
+REDUCE on token ) by rule 6
+
+GOTO from state 572 on token postfix_expression to state 822
+
+Current state: 822 input token )
+REDUCE on token ) by rule 16
+
+GOTO from state 572 on token unary_expression to state 823
+
+Current state: 823 input token )
+REDUCE on token ) by rule 26
+
+GOTO from state 572 on token cast_expression to state 310
+
+Current state: 310 input token )
+REDUCE on token ) by rule 28
+
+GOTO from state 572 on token multiplicative_expression to state 311
+
+Current state: 311 input token )
+REDUCE on token ) by rule 32
+
+GOTO from state 572 on token additive_expression to state 312
+
+Current state: 312 input token )
+REDUCE on token ) by rule 35
+
+GOTO from state 572 on token shift_expression to state 836
+
+Current state: 836 input token )
+REDUCE on token ) by rule 38
+
+GOTO from state 800 on token relational_expression to state 314
+
+Current state: 314 input token )
+REDUCE on token ) by rule 41
+
+GOTO from state 800 on token equality_expression to state 315
+
+Current state: 315 input token )
+REDUCE on token ) by rule 43
+
+GOTO from state 800 on token and_expression to state 316
+
+Current state: 316 input token )
+REDUCE on token ) by rule 45
+
+GOTO from state 800 on token exclusive_or_expression to state 317
+
+Current state: 317 input token )
+REDUCE on token ) by rule 47
+
+GOTO from state 800 on token inclusive_or_expression to state 318
+
+Current state: 318 input token )
+REDUCE on token ) by rule 49
+
+GOTO from state 800 on token logical_and_expression to state 319
+
+Current state: 319 input token )
+REDUCE on token ) by rule 51
+
+GOTO from state 800 on token logical_or_expression to state 320
+
+Current state: 320 input token )
+REDUCE on token ) by rule 53
+
+GOTO from state 800 on token conditional_expression to state 321
+
+Current state: 321 input token )
+REDUCE on token ) by rule 55
+
+GOTO from state 800 on token assignment_expression to state 322
+
+Current state: 322 input token )
+REDUCE on token ) by rule 59
+
+GOTO from state 800 on token expression to state 1049
+
+Current state: 1049 input token )
+SHIFT on token ) to state 1192
+
+Current state: 1192 input token }
+No action possible on this input
+Error recovery inserted ;
+
+Current state: 1192 input token ;
+SHIFT on token ; to state 1302
+
+Current state: 1302 input token }
+REDUCE on token } by rule 174
+
+GOTO from state 124 on token iteration_statement to state 122
+
+Current state: 122 input token }
+REDUCE on token } by rule 156
+
+GOTO from state 124 on token statement to state 270
+
+Current state: 270 input token }
+REDUCE on token } by rule 193
+
+GOTO from state 48 on token state_dec_list to state 124
+
+Current state: 124 input token }
+SHIFT on token } to state 271
+
+Current state: 271 input token ENDSYMBOL
+REDUCE on token ENDSYMBOL by rule 164
+
+GOTO from state 10 on token compound_statement to state 46
+
+Current state: 46 input token ENDSYMBOL
+REDUCE on token ENDSYMBOL by rule 189
+
+GOTO from state 13 on token function_definition to state 15
+
+Current state: 15 input token ENDSYMBOL
+REDUCE on token ENDSYMBOL by rule 184
+
+GOTO from state 13 on token external_declaration to state 52
+
+Current state: 52 input token ENDSYMBOL
+REDUCE on token ENDSYMBOL by rule 183
+
+GOTO from state 0 on token program to state 13
+
+Current state: 13 input token ENDSYMBOL
+REDUCE on token ENDSYMBOL by rule 1
+
+GOTO from state 0 on token start to state 1
+
+Current state: 1 input token ENDSYMBOL
+Accepted

@@ -1,0 +1,38 @@
+int a;
+
+int foo(int a,int b)
+{
+	int x,y;
+		printf("Hello, World!");
+}
+
+main()
+{
+int a = 2;
+int c;
+int b;
+
+if(a<b)
+{
+	printf("Greater");
+}
+
+else
+printf("Lesser");
+
+while(a--)
+{
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
